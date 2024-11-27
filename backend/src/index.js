@@ -21,8 +21,9 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: [
-        "http://localhost:5173", // Allow this origin (if needed)
-        "http://localhost:5174", // Add the frontend's actual URL here
+        "http://localhost:5173", 
+        "http://localhost:5174", 
+        "https://chat-app-mern-umber.vercel.app",
       ],
     credentials: true,
   })
